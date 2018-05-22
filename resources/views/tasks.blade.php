@@ -1,9 +1,9 @@
-<!-- col-xs col-sm col-md ol-lg -->
+<!-- col-xs col-sm col-md col-lg -->
 
 @extends('layouts.app')
 
 @section('content')
-    <div class="col-3">
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
         <div class="col-sm-12">
             <p> Menu </p>
         </div>
