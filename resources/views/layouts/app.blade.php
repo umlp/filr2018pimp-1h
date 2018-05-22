@@ -13,7 +13,7 @@
 
     <!-- Styles -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./tasksStyle.css" rel="stylesheet">
+    <link href="{{ elixir('./tasksStyle.css') }}" rel="stylesheet">
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
 
     <style>
@@ -27,7 +27,7 @@
     </style>
 </head>
 <body id="app-layout">
-  
+
 <!-- barre de menu -->
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
