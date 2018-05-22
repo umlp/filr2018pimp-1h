@@ -5,7 +5,11 @@
         <div class="col-sm-offset-2 col-sm-8">
             <div class="panel panel-default">
                 <div class="panel-heading">
+<<<<<<< HEAD
                     Test div
+=======
+                    Ploup test
+>>>>>>> 35956e8786c61e35022ae265e3ad1ab9dcc82d13
                 </div>
 
                 <div class="panel-body">
@@ -75,4 +79,18 @@
             @endif
         </div>
     </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <p> ENTETE </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <p> Barre gauche </p>
+        </div>
+        <div class="col-sm-9">
+            <p> Col B2 </p>
+        </div>
+    </div>
+    
 @endsection
