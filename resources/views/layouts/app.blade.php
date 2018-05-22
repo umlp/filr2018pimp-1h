@@ -27,8 +27,7 @@
     </style>
 </head>
 <body id="app-layout">
-
-
+  
 <!-- barre de menu -->
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
