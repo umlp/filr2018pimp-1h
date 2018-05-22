@@ -9,8 +9,8 @@
       }
   </style>
 
-    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-        <div id="lateral" class="col-sm-12">
+    <div id="lateral" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="col-sm-12">
             <p> Menu </p>
         </div>
         <div class="row">
