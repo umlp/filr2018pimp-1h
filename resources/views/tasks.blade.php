@@ -8,7 +8,7 @@
           background-color: red;
       }
   </style> -->
-
+<!--
     <div id="lateral" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
         <div class="col-sm-12">
             <p> Menu </p>
@@ -21,9 +21,9 @@
                 <p> Col B2 </p>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div id="map" style="width:400px;height:400px;background:yellow"></div>
+    <div id="map"></div>
 
     <script>
     function myMap() {
