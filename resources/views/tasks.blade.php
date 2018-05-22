@@ -36,7 +36,7 @@
     }
     </script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdTJXjmoCiT53tElKKi_UnG6vBJJMSxws&callback=myMap"></script>
 
 
 @endsection
