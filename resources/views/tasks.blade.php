@@ -3,11 +3,11 @@
 @extends('layouts.app')
 
 @section('content')
-  <style>
+  <!-- <style>
       #lateral {
           background-color: red;
       }
-  </style>
+  </style> -->
 
     <div id="lateral" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
         <div class="col-sm-12">
