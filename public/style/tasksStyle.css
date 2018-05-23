@@ -4,6 +4,10 @@ html, body {
   padding: 0;
 }
 
-.container, .container > div, #maps {
+.container, .container > iframe {
   height: inherit;
+}
+
+.container > iframe {
+  width: 100%;
 }

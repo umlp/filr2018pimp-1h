@@ -4,25 +4,6 @@
 
 @section('content')
 <div class="container">
-    <div>
-        <div id="maps"></div>
-    <div>
+    <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9201.672545068184!2d1.0712783174099465!3d49.38828445157712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sfr!4v1527110348924" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
-
-<footer>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-    <script>
-        initializeMap();
-
-        function initializeMap() {
-            var myOptions = {
-                center: new google.maps.LatLng(49.386078, 1.067933),
-                zoom: 14,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-
-            new google.maps.Map(document.getElementById("maps"), myOptions);
-        }
-    </script>
-</footer>
 @endsection
