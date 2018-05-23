@@ -4,7 +4,9 @@
 
 @section('content')
 <div class="container">
-    <div id="maps"></div>
+    <div>
+        <div id="maps"></div>
+    <div>
 </div>
 
 <footer>
