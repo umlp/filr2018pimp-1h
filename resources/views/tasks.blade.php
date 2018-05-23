@@ -23,20 +23,7 @@
         </div>
     </div> -->
 
-    <div id="map"></div>
-
-    <script>
-    function myMap() {
-      var mapOptions = {
-          center: new google.maps.LatLng(51.5, -0.12),
-          zoom: 10,
-          mapTypeId: google.maps.MapTypeId.HYBRID
-      }
-      var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-    }
-    </script>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdTJXjmoCiT53tElKKi_UnG6vBJJMSxws&callback=myMap"></script>
-
-
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41551.25820229445!2d1.0676016999999998!3d49.39086899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sfr!4v1527093473772" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
 @endsection
