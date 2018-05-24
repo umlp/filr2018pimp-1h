@@ -43,3 +43,11 @@ html, body {
   bottom: 0;
   position: fixed;
 }
+
+#infosZoe img {
+  position: absolute;
+}
+
+#infosZoe div {
+  padding-left: 2%;
+}
