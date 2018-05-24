@@ -43,8 +43,8 @@
       <ul class="nav navbar-nav">
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Options de réservation<span class="caret"></span></a>
-          <ul id="ddForm" class="dropdown-menu">
-            <li>
+          <ul class="dropdown-menu">
+            <li id="ddForm">
               <form method="post" action="#">
                 <div class="form-group">
                   <label for="depart"> Adresse de départ : </label>
