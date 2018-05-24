@@ -39,9 +39,9 @@
       </button>
     </div> -->
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul id="optionsReservation" class="col-xs-3 nav navbar-nav">
+      <ul id="optionsReservation" class="nav navbar-nav">
         <li class="ddForm" class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Options de réservation<span class="caret"></span></a>
+          <a class="col-xs-3 col-sm-3 col-md-3 col-lg-3 dropdown-toggle" data-toggle="dropdown" href="#">Options de réservation<span class="caret"></span></a>
           <ul class="ddForm dropdown-menu">
             <li id="liForm" class="ddForm">
               <form method="post" action="#">
