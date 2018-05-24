@@ -30,8 +30,8 @@
 
 <!-- barre de menu -->
 <nav class="navbar navbar-inverse">
-  <!-- <div class="container-fluid">
-    <div class="navbar-header">
+  <div class="container-fluid">
+  <!--  <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -71,6 +71,7 @@
         <a href="#">AlloZoé</a>
       </div>
     </div>
+  </div>
 </nav>
 
     @yield('content')
