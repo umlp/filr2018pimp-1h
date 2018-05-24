@@ -5,7 +5,7 @@ html, body {
 }
 
 .container, .container > iframe {
-  height: inherit;
+  height: 80%;
 }
 
 .container > iframe {
@@ -45,7 +45,9 @@ html, body {
 }
 
 #infosZoe img {
-  position: absolute;
+  width: 20%;
+  height: 100%;
+  position: relative;
 }
 
 #infosZoe div {
