@@ -43,7 +43,7 @@
       <ul class="nav navbar-nav">
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Options de réservation<span class="caret"></span></a>
-          <ul class="dropdown-menu">
+          <ul id="ddForm" class="dropdown-menu">
             <li>
               <form method="post" action="#">
                 <div class="form-group">
@@ -53,7 +53,7 @@
                   <input type="text" class="form-control" name="destination" placeholder="Adresse de destination">
                 </div>
                 <div>
-                  <input type="submit" class="btn btn-lg" name="submit" value="Vroum <3 !">
+                  <input type="submit" id="bSubmitReservationOptions" class="btn btn-lg" name="submit" value="Vroum <3 !">
                 </div>
               </form>
             </li>

@@ -11,3 +11,13 @@ html, body {
 .container > iframe {
   width: 100%;
 }
+
+#bSubmitReservationOptions {
+  text-align: right;
+}
+
+#ddForm {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
