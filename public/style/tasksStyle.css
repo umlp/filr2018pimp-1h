@@ -39,7 +39,7 @@ html, body {
 
 #infosZoe {
   background-color: grey;
-  height: 10%;
+  height: 15%;
   width: 100%;
   bottom: 0;
   position: fixed;
@@ -47,7 +47,7 @@ html, body {
 
 #infosZoe img {
   display: inline;
-  width: 15%;
+  width: 10%;
   height: 100%;
   position: absolute;
   border: 1px solid black;
