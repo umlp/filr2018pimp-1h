@@ -21,6 +21,14 @@ html, body {
   width: 100%;
 }
 
+#optionsReservation {
+  float: left;
+}
+
 #appTitle {
-  text-align: center;
+  float:none;
+}
+
+#login {
+  float: right;
 }
