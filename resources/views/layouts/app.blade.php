@@ -67,8 +67,10 @@
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div> -->
-    wow
-  </div>
+      <div class="nav navbar-nav navbar-brand" id="appTitle">
+        <a href="#">AlloZoé</a>
+      </div>
+    </div>
 </nav>
 
     @yield('content')
