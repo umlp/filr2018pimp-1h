@@ -39,7 +39,7 @@
       </button>
     </div> -->
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
+      <ul class="col-xs-5 col-sm-5 col-md-5 col-lg-5 nav navbar-nav">
         <li class="ddForm" class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Options de réservation<span class="caret"></span></a>
           <ul class="ddForm dropdown-menu">
@@ -59,10 +59,10 @@
           </ul>
         </li>
       </ul>
-      <ul id="appTitle" class="nav navbar-nav navbar-brand">
+      <ul id="appTitle" class="col-xs-2 col-sm-2 col-md-2 col-lg-2 nav navbar-nav navbar-brand">
         <li><a href="#">AlloZoé</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="col-xs-5 col-sm-5 col-md-5 col-lg-5 nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
