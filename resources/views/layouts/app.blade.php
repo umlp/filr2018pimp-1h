@@ -39,7 +39,7 @@
       </button>
     </div> -->
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul id="optionsReservation" class="nav navbar-nav">
+      <!-- <ul id="optionsReservation" class="nav navbar-nav">
         <li class="ddForm" class="dropdown">
           <a class="col-xs-3 col-sm-3 col-md-3 col-lg-3 dropdown-toggle" data-toggle="dropdown" href="#">Options de réservation<span class="caret"></span></a>
           <ul class="ddForm dropdown-menu">
@@ -66,7 +66,8 @@
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
-    </div>
+    </div> -->
+    wow
   </div>
 </nav>
 
