@@ -19,5 +19,8 @@ html, body {
 #ddForm {
   height: 100%;
   width: 100%;
-  background-color: red;
+}
+
+#appTitle {
+  text-align: center;
 }
