@@ -42,11 +42,19 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Options<span class="caret"></span></a>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Options de réservation<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li>
+            <li>
+              <form method="post" action="#">
+                <div>
+                  <input type="text" name="depart" placeholder="Adresse de départ">
+                  <input type="text" name="destination" placeholder="Adresse de destination">
+                </div>
+                <div>
+                  <input type="submit" name="submit" value="Vroum <3 !">
+                </div>
+              </form>
+            </li>
           </ul>
         </li>
       </ul>
