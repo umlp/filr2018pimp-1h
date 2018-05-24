@@ -32,3 +32,7 @@ html, body {
 #login {
   float: right;
 }
+
+#appTitle a:hover, #appTitle a:visited, #appTitle a:active {
+  style: none;
+}
