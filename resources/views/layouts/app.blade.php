@@ -59,8 +59,8 @@
           </ul>
         </li>
       </ul>
-      <ul class="nav navbar-nav navbar-brand">
-        <li><a id="appTitle" href="#">AlloZoé</a></li>
+      <ul id="appTitle" class="nav navbar-nav navbar-brand">
+        <li><a href="#">AlloZoé</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
