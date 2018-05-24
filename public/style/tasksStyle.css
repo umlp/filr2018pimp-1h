@@ -39,7 +39,7 @@ html, body {
 
 #infosZoe {
   background-color: grey;
-  height: 15%;
+  height: 10%;
   width: 100%;
   bottom: 0;
   position: fixed;
@@ -50,8 +50,10 @@ html, body {
   width: 15%;
   height: 100%;
   position: absolute;
+  border: 1px solid black;
 }
 
 #informations {
+  vertical-align: middle;
   padding-left: 17%;
 }
