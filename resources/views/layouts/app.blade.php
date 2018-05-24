@@ -46,12 +46,14 @@
           <ul class="dropdown-menu">
             <li>
               <form method="post" action="#">
-                <div>
-                  <input type="text" name="depart" placeholder="Adresse de départ">
-                  <input type="text" name="destination" placeholder="Adresse de destination">
+                <div class="form-group">
+                  <label for="depart"> Adresse de départ : </label>
+                  <input type="text" class="form-control" name="depart" placeholder="Adresse de départ">
+                  <label for="destination"> Destination : </label>
+                  <input type="text" class="form-control" name="destination" placeholder="Adresse de destination">
                 </div>
                 <div>
-                  <input type="submit" name="submit" value="Vroum <3 !">
+                  <input type="submit" class="btn btn-lg" name="submit" value="Vroum <3 !">
                 </div>
               </form>
             </li>
