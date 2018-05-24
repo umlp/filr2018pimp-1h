@@ -42,7 +42,7 @@
       <ul id="optionsReservation" class="nav navbar-nav">
         <li class="ddForm" class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Options de réservation<span class="caret"></span></a>
-          <ul class="ddForm dropdown-menu">
+          <ul class="col-xs-5 col-sm-5 col-md-5 col-lg-5 ddForm dropdown-menu">
             <li id="liForm" class="ddForm">
               <form method="post" action="#">
                 <div class="form-group">
@@ -59,10 +59,10 @@
           </ul>
         </li>
       </ul>
-      <div class="nav navbar-nav navbar-brand" id="appTitle">
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 nav navbar-nav navbar-brand" id="appTitle">
         <a href="#">AlloZoé</a>
       </div>
-      <ul id="login" class="nav navbar-nav navbar-right">
+      <ul id="login" class="col-xs-5 col-sm-5 col-md-5 col-lg-5 nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
