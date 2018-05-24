@@ -59,7 +59,7 @@
           </ul>
         </li>
       </ul>
-      <div id="appTitle">
+      <div class="nav navbar-nav navbar-brand" id="appTitle">
         <a href="#">AlloZoé</a>
       </div>
       <ul id="login" class="nav navbar-nav navbar-right">
