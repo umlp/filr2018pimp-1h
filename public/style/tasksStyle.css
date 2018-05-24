@@ -49,13 +49,13 @@ html, body {
 
 #infosZoe img {
   display: inline;
-  width: 10%;
+  width: 20%;
   height: 100%;
   position: absolute;
   border: 1px solid black;
 }
 
 #informations {
-  vertical-align: middle;
+  padding-top: 40%;
   padding-left: 12%;
 }
