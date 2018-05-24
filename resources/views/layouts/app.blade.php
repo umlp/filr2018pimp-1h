@@ -39,7 +39,7 @@
       </button>
     </div> -->
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul id="optionsReservation" class="nav navbar-nav">
+      <ul id="optionsReservation" class="col-xs-3 nav navbar-nav">
         <li class="ddForm" class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Options de réservation<span class="caret"></span></a>
           <ul class="ddForm dropdown-menu">
