@@ -26,7 +26,7 @@ html, body {
 }
 
 #appTitle {
-  float:none;
+  text-align: center;
 }
 
 #login {
