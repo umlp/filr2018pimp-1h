@@ -36,3 +36,9 @@ html, body {
 #appTitle a:hover, #appTitle a:visited, #appTitle a:active {
   style: none;
 }
+
+#infosZoe {
+  background-color: grey;
+  bottom: 0;
+  position: fixed;
+}
