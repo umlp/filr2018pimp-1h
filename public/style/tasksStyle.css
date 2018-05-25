@@ -28,16 +28,8 @@ html, body {
   float: left;
 }
 
-#appTitle {
-  text-align: center;
-}
-
 #login {
   float: right;
-}
-
-#appTitle a:hover, #appTitle a:visited, #appTitle a:active {
-  style: none;
 }
 
 #infosZoe {
@@ -57,4 +49,13 @@ html, body {
 
 #informations {
   padding-left: 22%;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
 }
