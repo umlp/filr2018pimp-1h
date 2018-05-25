@@ -59,3 +59,7 @@ html, body {
     text-align: center;
     margin: auto;
 }
+
+#maps {
+  width: 100%;
+}
