@@ -1,5 +1,3 @@
-<!-- col-xs col-sm col-md col-lg -->
-
 @extends('layouts.app')
 
 @section('content')
