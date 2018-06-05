@@ -3,7 +3,6 @@
 @extends('layouts.app')
 
 @section('content')
-<?php session_start()?>
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
@@ -23,7 +22,7 @@
         </div>
       <div class="row">
         <img src="zoe.jpg" alt="Image de zoé" class="img-thumbnail" />
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <div>Zoé n° : X</div>
           <div>Vous rejoindra à : X</div>
           <div>Arrivée prévue à : X</div>
