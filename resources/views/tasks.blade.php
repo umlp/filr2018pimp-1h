@@ -21,15 +21,11 @@
           </form>
         </div>
       <div class="row">
-        <div id="infosZoe">
-          <img src="zoe.jpg" alt="Image de zoé" />
-          <div id="informations">
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-              <div>Zoé n° : X</div>
-              <div>Vous rejoindra à : X</div>
-              <div>Arrivée prévue à : X</div>
-            </div>
-          </div>
+        <img src="zoe.jpg" alt="Image de zoé" class="img-thumbnail" />
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+          <div>Zoé n° : X</div>
+          <div>Vous rejoindra à : X</div>
+          <div>Arrivée prévue à : X</div>
         </div>
       </div>
     </div>
