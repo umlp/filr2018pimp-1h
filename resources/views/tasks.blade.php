@@ -6,24 +6,28 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-      <form method="post" action="#">
-        <div class="form-group">
-          <label for="depart"> Adresse de départ : </label>
-          <input type="text" id="depart" class="form-control" name="depart" placeholder="Adresse de départ">
-        </div>
-        <div class="form-group">
-          <label for="destination"> Destination : </label>
-          <input type="text" id="destination" class="form-control" name="destination" placeholder="Adresse de destination">
-        </div>
-        <input type="submit" class="btn btn-primary" name="submit" value="Réserver">
-      </form>
-      <div id="infosZoe">
-        <img src="zoe.jpg" alt="Image de zoé"></img>
-        <div id="informations">
-          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-            <div>Zoé n° : X</div>
-            <div>Vous rejoindra à : X</div>
-            <div>Arrivée prévue à : X</div>
+      <div class="row">
+        <form method="post" action="#">
+          <div class="form-group">
+            <label for="depart"> Adresse de départ : </label>
+            <input type="text" id="depart" class="form-control" name="depart" placeholder="Adresse de départ">
+          </div>
+          <div class="form-group">
+            <label for="destination"> Destination : </label>
+            <input type="text" id="destination" class="form-control" name="destination" placeholder="Adresse de destination">
+          </div>
+          <input type="submit" class="btn btn-primary" name="submit" value="Réserver">
+        </form>
+      </div>
+      <div class="row">
+        <div id="infosZoe">
+          <img src="zoe.jpg" alt="Image de zoé"></img>
+          <div id="informations">
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+              <div>Zoé n° : X</div>
+              <div>Vous rejoindra à : X</div>
+              <div>Arrivée prévue à : X</div>
+            </div>
           </div>
         </div>
       </div>
