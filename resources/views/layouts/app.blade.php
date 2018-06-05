@@ -29,7 +29,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbar">
-    <ul class="navbar-nav navbar-right mr-auto mt-2 mt-lg-0">
+    <ul class="navbar-nav navbar-rightmr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -44,6 +44,20 @@
       <input class="form-control mr-sm-2" type="search" placeholder="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
+  </div>
+</nav>
+<nav class="navbar navbar-inverse">
+  <div class="container.fluid">
+    <div class="navbar-brand">AlloZoé</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Créer un compte</a></li>
+        <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Se connecter</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
     @yield('content')
