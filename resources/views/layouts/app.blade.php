@@ -22,42 +22,30 @@
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
 </head>
 <body id="app-layout">
-<nav class="navbar navbar-expand-lg navbar-inverse">
-  <div class="navbar-brand" href="#">AlloZoé</div>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+  <a class="navbar-brand" href="#">Navbar</a>
 
-  <div class="collapse navbar-collapse" id="navbar">
-    <ul class="navbar-nav navbar-rightmr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li>
+        <a href="#">
+          <span class="glyphicon glyphicon-user"></span> 
+          Créer un compte
+        </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+      <li>
+        <a href="login.php">
+        <span class="glyphicon glyphicon-log-in"></span> 
+        Se connecter</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
-  </div>
-</nav>
-<nav class="navbar navbar-inverse">
-  <div class="container.fluid">
-    <div class="navbar-brand">AlloZoé</div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Créer un compte</a></li>
-        <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Se connecter</a></li>
-      </ul>
-    </div>
   </div>
 </nav>
     @yield('content')
