@@ -4,7 +4,6 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-<<<<<<< HEAD
       <div class="container-fluid">
         <div class="row">
           <form method="post" action="#">
@@ -19,21 +18,6 @@
             <input type="submit" class="btn btn-primary" name="submit" value="Réserver">
           </form>
         </div>
-=======
-      <div class="row">
-        <form method="post" action="#">
-          <div class="form-group">
-            <label for="depart">Adresse de départ :</label>
-            <input type="text" id="depart" class="form-control" name="depart" placeholder="Adresse de départ">
-          </div>
-          <div class="form-group">
-            <label for="destination">Destination :</label>
-            <input type="text" id="destination" class="form-control" name="destination" placeholder="Adresse de destination">
-          </div>
-          <input type="submit" class="btn btn-primary" name="submit" value="Réserver">
-        </form>
-      </div>
->>>>>>> 88aef945a825e3447b26eeed0f2e4f246967e525
       <div class="row">
         <img src="zoe.jpg" alt="Image de zoé" class="img-thumbnail" />
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
