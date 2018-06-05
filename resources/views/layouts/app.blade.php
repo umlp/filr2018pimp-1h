@@ -53,6 +53,18 @@
     </ul>
   </div>
 </nav>
+<nav class="navbar navbar-inverse">
+  <div class="nav navbar-nav navbar-brand">AlloZoé</div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Créer un compte</a></li>
+      <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Se connecter</a></li>
+    </ul>
+  </div>
+</nav>
     @yield('content')
 </body>
 </html>
