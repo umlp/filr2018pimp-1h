@@ -4,3 +4,13 @@ html, body {
   padding: 0;
 }
 
+#main {
+  box-sizing: border-box;
+  padding-top: 40px;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
