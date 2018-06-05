@@ -31,15 +31,14 @@
 <!-- barre de menu -->
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
-      <div class="collapse navbar-collapse">
-        <div class="nav navbar-nav navbar-brand">
-          AlloZoé
-        </div>
-        <ul id="login" class="nav navbar-nav navbar-right">
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Créer un compte</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Se connecter</a></li>
-        </ul>
+    <div class="collapse navbar-collapse">
+      <div class="nav navbar-nav navbar-brand">
+        AlloZoé
       </div>
+      <ul id="login" class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Créer un compte</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Se connecter</a></li>
+      </ul>
     </div>
   </div>
 </nav>
