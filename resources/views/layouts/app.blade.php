@@ -23,7 +23,7 @@
 </head>
 <body id="app-layout">
 
-<nav class="navbar navbar-invert">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">AlloZoé</a>
