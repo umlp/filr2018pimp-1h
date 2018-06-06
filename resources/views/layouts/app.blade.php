@@ -29,6 +29,18 @@
       <a class="navbar-brand" href="#">AlloZoé</a>
     </div>
       <ul class="nav navbar-nav navbar-right">
+        <?php if($request->session()->has('utilisateur')) { ?>
+          <li>
+            <span class="glyphicon glyphicon-user"></span>
+            <?php echo $request->session()->get('utilisateur'); ?>
+          </li>
+          <li>
+            <a href="{{ URL::to('logout') }}">
+              <span class="glyphicon glyphicon-log-out"></span>
+              Se déconnecter
+            </a>
+          </li>
+        <?php } else { ?>
         <li>
           <a href="#">
             <span class="glyphicon glyphicon-user"></span>
@@ -41,6 +53,7 @@
             Se connecter
           </a>
         </li>
+        <?php }?>
       </ul>
     </div>
   </div>
