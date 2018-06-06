@@ -24,9 +24,16 @@ Route::group(['middleware' => ['web']], function () {
         ]);
     });
 
-    Route::get('login', 'SessionController@doLogin');
-    Route::get('logout', 'SessionController@doLogout');
+    Route::get('login', function () {
+        return view('tasks', [
+            'utilisateur' => 'flavien'
+        ]);
+    });
 
+    Route::get('logout', function () {
+        return view('tasks');
+    });
+    
     /**
      * Add New Task
      */

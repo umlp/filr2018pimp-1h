@@ -30,14 +30,10 @@
     </div>
       <ul class="nav navbar-nav navbar-right">
         <?php
-        use Illuminate\Http\Request;
-
-        $request = Request::instance();
-
-          if($request->session()->has('utilisateur')) { ?>
+          if(isset($utilisateur)) { ?>
           <li>
             <span class="glyphicon glyphicon-user"></span>
-            <?php echo $request->session()->get('utilisateur'); ?>
+            <?php echo $utilisateur ?>
           </li>
           <li>
             <a href="{{ URL::to('logout') }}">
