@@ -43,7 +43,7 @@
     <div id="criteres" class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
       <div class="container-fluid">
         <div class="row">
-          <form method="post" action="#" id="reservation">
+          <form method="post" action="#">
             <div class="form-group">
               <label for="depart">Adresse de départ :</label>
               <input type="text" id="depart" class="form-control" name="depart" placeholder="Adresse de départ" required="required" />
@@ -52,7 +52,7 @@
               <label for="destination">Destination :</label>
               <input type="text" id="destination" class="form-control" name="destination" placeholder="Adresse de destination" required="required" />
             </div>
-            <input type="submit" class="btn btn-primary" name="submit" value="Réserver" />
+            <input type="button" id="reservation" class="btn btn-primary" name="submit" value="Réserver" />
           </form>
         </div>
       <div class="row">
@@ -73,11 +73,10 @@
 
 <script>
   $(function() {
-    $( "#reservation" ).submit(function( event ) {
-      <?php if(isset($utilisateur)) echo "$('#reserve').modal('show')";
-            else                    echo "$('#connexion').modal('show')";
+    $( "#reservation" ).on("click", function() {
+      <?php if(isset($utilisateur)) echo "$('#reserve').modal('show');";
+            else                    echo "$('#connexion').modal('show');";
        ?>
-       event.preventDefault();
     });
   })
 </script>
