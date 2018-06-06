@@ -3,5 +3,5 @@
 
   $_SESSION["utilisateur"] = "Admin";
 
-  return redirect()->route('/');
+  header("Location: ../resources/views/tasks.blade.php");
  ?>
