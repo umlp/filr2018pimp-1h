@@ -76,8 +76,7 @@
     $( "#reservation" ).on("click", function() {
       <?php if(isset($utilisateur)) { ?>
         $('#reserve').modal('show');
-        $('depart').val('');
-        $('destination').val('');
+        $('form :input').val('');
       <?php } else { ?>
         $('#connexion').modal('show');
       <?php } ?>
