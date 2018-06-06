@@ -36,7 +36,7 @@
           </a>
         </li>
         <li>
-          <a href="login.php">
+          <a href="{{ URL::to('login') }}">
             <span class="glyphicon glyphicon-log-in"></span>
             Se connecter
           </a>

@@ -24,6 +24,11 @@ Route::group(['middleware' => ['web']], function () {
         ]);
     });
 
+    Route::get('login', array('uses' => 'Auth/AuthController@showLogin'));
+    Route::post('login', array('uses' => 'Auth/AuthController@doLogin'));
+    Route::get('logout', array('uses' => 'Auth/AuthController@doLogout'));
+
+
     /**
      * Add New Task
      */
