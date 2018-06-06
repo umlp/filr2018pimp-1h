@@ -24,6 +24,16 @@ Route::group(['middleware' => ['web']], function () {
         ]);
     });
 
+
+    Route::get('login', function () {
+        return view('login.login');
+    });
+
+    Route::get('logout', function () {
+        return view('logout.logout');
+    });
+
+
     /**
      * Add New Task
      */
