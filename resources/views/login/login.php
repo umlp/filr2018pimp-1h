@@ -3,5 +3,5 @@
 
   $_SESSION["utilisateur"] = "Admin";
 
-  header("Location: ".view('/'));
+  //header("Location: ".view('/'));
  ?>
