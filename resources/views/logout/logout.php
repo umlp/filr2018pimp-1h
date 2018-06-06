@@ -3,5 +3,5 @@
 
   session_destroy();
 
-  header("Location: ".view('/'));
+  return redirect()->route('/');
  ?>
