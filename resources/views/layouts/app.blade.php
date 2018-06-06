@@ -29,8 +29,7 @@
       <a class="navbar-brand" href="#">AlloZoé</a>
     </div>
       <ul class="nav navbar-nav navbar-right">
-        <?php
-          if(isset($utilisateur)) { ?>
+        <?php if(isset($utilisateur)) { ?>
           <li>
             <a href="#">
               <span class="glyphicon glyphicon-user"></span>

@@ -73,7 +73,7 @@
 
 <script>
   $(function() {
-    $("#reservation").submit(function(event) {
+    $( "#reservation" ).submit(function( event ) {
       <?php if(isset($utilisateur)) echo "$('#reserve').modal('show')";
             else                    echo "$('#connexion').modal('show')";
        ?>
