@@ -32,8 +32,10 @@
         <?php
           if(isset($utilisateur)) { ?>
           <li>
-            <span class="glyphicon glyphicon-user"></span>
-            <?php echo $utilisateur ?>
+            <a href="#">
+              <span class="glyphicon glyphicon-user"></span>
+              <?php echo $utilisateur; ?>
+            </a>
           </li>
           <li>
             <a href="{{ URL::to('logout') }}">
