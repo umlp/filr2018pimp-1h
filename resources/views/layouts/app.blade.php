@@ -29,7 +29,12 @@
       <a class="navbar-brand" href="#">AlloZoé</a>
     </div>
       <ul class="nav navbar-nav navbar-right">
-        <?php if($request->session()->has('utilisateur')) { ?>
+        <?php
+        use Illuminate\Http\Request;
+
+        $request = Request::instance();
+
+          if($request->session()->has('utilisateur')) { ?>
           <li>
             <span class="glyphicon glyphicon-user"></span>
             <?php echo $request->session()->get('utilisateur'); ?>
