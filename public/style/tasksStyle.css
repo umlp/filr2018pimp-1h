@@ -5,7 +5,8 @@ html, body {
 }
 
 #criteres {
-  
+  height: 800px;
+  border-right: 1px solid black;
 }
 
 #main {
