@@ -32,7 +32,7 @@
         Veuillez vous connecter pour réserver un trajet.
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Ferme</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
         <a class="btn btn-primary" href="{{ URL::to('login') }}" role="button">Se connecter</a>
       </div>
     </div>
@@ -74,9 +74,13 @@
 <script>
   $(function() {
     $( "#reservation" ).on("click", function() {
-      <?php if(isset($utilisateur)) echo "$('#reserve').modal('show');";
-            else                    echo "$('#connexion').modal('show');";
-       ?>
+      <?php if(isset($utilisateur)) { ?>
+        $('#reserve').modal('show');
+        $('depart').val('');
+        $('destination').val('');
+      <?php } else { ?>
+        $('#connexion').modal('show');
+      <?php } ?>
     });
   })
 </script>
