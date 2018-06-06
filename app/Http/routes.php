@@ -14,6 +14,14 @@
 use App\Task;
 use Illuminate\Http\Request;
 
+Route::get('login', function () {
+    return view('login/login');
+});
+
+Route::get('logout', function () {
+    return view('logout.logout');
+});
+
 Route::group(['middleware' => ['web']], function () {
     /**
      * Show Task Dashboard
@@ -23,17 +31,7 @@ Route::group(['middleware' => ['web']], function () {
             'tasks' => Task::orderBy('created_at', 'asc')->get()
         ]);
     });
-
-
-    Route::get('login', function () {
-        return view('login/login');
-    });
-
-    Route::get('logout', function () {
-        return view('logout.logout');
-    });
-
-
+    
     /**
      * Add New Task
      */
