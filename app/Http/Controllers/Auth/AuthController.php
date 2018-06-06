@@ -70,7 +70,7 @@ class AuthController extends Controller
 
     public function showLogin()
     {
-      return View::make('login');
+      return View::make('flavien');
     }
 
     public function doLogin()
