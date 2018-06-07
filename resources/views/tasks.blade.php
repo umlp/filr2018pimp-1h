@@ -28,9 +28,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        Veuillez vous connecter pour réserver un trajet.
-      </div>
+      <div id="popup" class="modal-body"></div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
         <a class="btn btn-primary" href="{{ URL::to('login') }}" role="button">Se connecter</a>
@@ -72,13 +70,10 @@
 </div>
 
 <script>
-  $("#reservation").on("click", function(event) {
-      event.preventDefault();
-  });
-
   $(function() {
     $( "#reservation" ).on("click", function() {
       <?php if(isset($utilisateur)) { ?>
+        $('#reserve').text = "Wow";
         $('#reserve').modal('show');
         $('#depart').val('');
         $('#destination').val('');
