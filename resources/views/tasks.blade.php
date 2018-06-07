@@ -78,14 +78,17 @@
 
   $(function() {
     $( "#reservation" ).on("click", function() {
-      <?php if(isset($utilisateur)) { ?>
-        $('#popup_valider').text("wow");
-        $('#reserve').modal('show');
-        $('#depart').val('');
-        $('#destination').val('');
-      <?php } else { ?>
-        $('#connexion').modal('show');
-      <?php } ?>
+        $('#popup_valider').text("Trajet réservé !");
+        <?php if(isset($utilisateur)) { ?>
+            if (!('#depart').val() && !('#destination').val()) {
+                $('#popup_valider').text("Veuillez remplir tous les champs.");
+            }
+            $('#reserve').modal('show');
+            $('#depart').val('');
+            $('#destination').val('');
+        <?php } else { ?>
+                $('#connexion').modal('show');
+        <?php } ?>
     });
   })
 </script>
