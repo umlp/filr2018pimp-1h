@@ -10,8 +10,8 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-          aze
+      <div id="popup_valider" class="modal-body">
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
@@ -79,7 +79,7 @@
   $(function() {
     $( "#reservation" ).on("click", function() {
       <?php if(isset($utilisateur)) { ?>
-        $('#reserve modal').text("wow");
+        $('#popup_valider').text("wow");
         $('#reserve').modal('show');
         $('#depart').val('');
         $('#destination').val('');
