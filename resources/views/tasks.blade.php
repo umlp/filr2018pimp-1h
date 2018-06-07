@@ -80,7 +80,7 @@
     $( "#reservation" ).on("click", function() {
         $('#popup_valider').text("Trajet réservé !");
         <?php if(isset($utilisateur)) { ?>
-            if (!('#depart').val() && !('#destination').val()) {
+            if (!$('#depart').val() && !$('#destination').val()) {
                 $('#popup_valider').text("Veuillez remplir tous les champs.");
             }
             $('#reserve').modal('show');
