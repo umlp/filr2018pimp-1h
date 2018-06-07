@@ -52,7 +52,7 @@
               <label for="destination">Destination :</label>
               <input type="text" id="destination" class="form-control" name="destination" placeholder="Adresse de destination" required="required" />
             </div>
-            <input type="button" id="reservation" class="btn btn-primary" name="submit" value="Réserver" />
+            <input type="submit" id="reservation" class="btn btn-primary" name="submit" value="Réserver" />
           </form>
         </div>
       <div class="row">
@@ -72,6 +72,10 @@
 </div>
 
 <script>
+  $("#reservation").on("click", function(event) {
+      event.preventDefault();
+  });
+
   $(function() {
     $( "#reservation" ).on("click", function() {
       <?php if(isset($utilisateur)) { ?>
